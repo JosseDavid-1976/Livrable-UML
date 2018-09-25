@@ -1,0 +1,31 @@
+Description de haut niveau de chacun des users-case
+
+CAISSIER
+Login: se faire reconnaitre par l'application en tant que caissier au moment de la connexion
+Initialisation d'une vente: débuter une nouvelle transaction avec un client
+Détail rendu argent: Détail du montant à rendre au client lors du rendu de monnaie (erreur, facilité la tâche)
+Clore la vente: Fermer la vente avant edition du ticket
+Clore la transaction: Transaction terminée, on passe à la suivante
+Editer sa journée de caisse: Afin de faciliter le rendu de caisse en fin de journée
+Se déconnecter: Cloturer sa session à la fin de sa journée de travail
+Ajouter un article: Fonction habituelle d'une caisse, confère PDF document éléve
+Editer un ticket de caisse: Afin de remettre au client avec les détails de transaction
+
+ADMIN
+Login: se faire reconnaitre par l'application en tant qu'admin au moment de la connexion
+Entretien de l'application: Maintenance et amélioration de l'application
+CRUD du personnel: Pouvoir Créer/Lire/Editer/Supprimer les employés
+Se déconnecter: Cloturer sa session à la fin de sa journée de travail
+
+COMPTABLE
+
+Login: se faire reconnaitre par l'application en tant que comptable au moment de la connexion
+Editer les rapports: Avoir accès aux rapports afin de faciliter son travail
+Se déconnecter: Cloturer sa session à la fin de sa journée de travail
+
+MANAGER
+Login: se faire reconnaitre par l'application en tant que manager au moment de la connexion
+Editer les rapports: Afin de faciliter son travail et avoir une vue d'ensemble vente/stock/magasin
+Accèder au catalogue: Afin de consulter les produits mis en vente dans le magasin et leur référencements
+CRUD sur catalogue: Pouvoir Créer/Lire/Editer/Supprimer les produits disponible sur le catalogue
+Se déconnecter: Cloturer sa session à la fin de sa journée de travail
